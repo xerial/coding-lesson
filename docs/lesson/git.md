@@ -23,3 +23,6 @@ GitHubでは世界中のエンジニアがソースコードを共有（[オー�
 
 ## ソースコードの履歴を管理する
 
+- [Git](https://git-scm.com/)
+- [Git 15 minutes tutorial](https://try.github.io/levels/1/challenges/1)
+

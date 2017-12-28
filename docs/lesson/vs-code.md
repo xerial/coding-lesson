@@ -44,4 +44,3 @@ $ gem install rcodetools
 を実行しておく。
 
 - [Go](https://marketplace.visualstudio.com/items?itemName=lukehoban.Go)
-- [Zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku)
