@@ -16,7 +16,12 @@ Lessons
 ## Ruby
 - [Ruby Introduction](lesson/ruby-intro.html)
 
-## Programming Contest
+## Addtional Resources
+
+### Programming Contest
 - [Online Judge System](http://judge.u-aizu.ac.jp/onlinejudge/)
   - [Introduction to Programming](http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=ITP1)
 - [実践的プログラミング](http://www.graco.c.u-tokyo.ac.jp/icpc-challenge/)
+
+### Programming Games
+- [CodinGame](https://www.codingame.com/start)

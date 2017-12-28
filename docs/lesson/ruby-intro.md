@@ -197,7 +197,79 @@ apple: price=100
 banana: price=50
 ```
 
-## 参考
+## String (文字列)
 
+- [正規表現 (regular expression)](https://docs.ruby-lang.org/ja/latest/doc/spec=2fregexp.html)
+
+### strings.rb
+```ruby
+s1 = 'Ruby'
+s2 = "Hello #{s1}!"
+
+puts s1
+puts s2
+puts s2.length
+puts s1[0, 2]
+puts s2.index(/ll/)  # 正規表現で検索
+
+a = [1, 2, 3]
+
+puts a.join(", ")`
+```
+
+## 2進数(binary)、16進数(hex)
+
+コンピューターの世界では、数字は2進数で表されます。
+
+### bits.rb
+```ruby
+(0 .. 16).each {|i| 
+    puts "#{i}: binary #{i.to_s(2)}, hex: #{i.to_s(16)}"
+}
+```
+
+```
+$ ruby bits.rb
+0: binary 0, hex: 0
+1: binary 1, hex: 1
+2: binary 10, hex: 2
+3: binary 11, hex: 3
+4: binary 100, hex: 4
+5: binary 101, hex: 5
+6: binary 110, hex: 6
+7: binary 111, hex: 7
+8: binary 1000, hex: 8
+9: binary 1001, hex: 9
+10: binary 1010, hex: a
+11: binary 1011, hex: b
+12: binary 1100, hex: c
+13: binary 1101, hex: d
+14: binary 1110, hex: e
+15: binary 1111, hex: f
+16: binary 10000, hex: 10
+```
+
+16進数を表すのに、`0x`を先頭につけます。
+`0xFF`   # 255    = 15 * 16 + 15
+`0xFFFF` # 65536
+
+## データサイズ
+
+```
+1 byte = 8 bits
+1 kB = 1024 bytes = 2^10
+1 MB = 1024 kB    = 2^20
+1 GB = 1024 MB    = 2^30
+1 TB = 1024 GB    = 2^40
+1 PB = 1024 TB    = 2^50
+1 EB = 1024 PB    = 2^60
+```
+
+
+
+## 参考
+- [１時間で覚えるRuby](http://mayah.jp/article/2004/ruby/)
+- [Ruby基礎文法最速マスター](http://route477.net/d/?date=20100125)
+- [Ruby リファレンスマニュアル](https://docs.ruby-lang.org/ja/latest/doc/index.html)
 - [Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/getstarted.html)
 - [Ruby in Twenty Minutes](https://www.ruby-lang.org/en/documentation/quickstart/)
