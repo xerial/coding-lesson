@@ -25,6 +25,7 @@ Introduction
   - loop
   - 条件分岐 if, else, case-when
   - 再帰：recursion
+  - 正規表現: 文字列の操作
 
 - ネットワークでデータをやりとりする
   - HTTP

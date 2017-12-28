@@ -12,3 +12,7 @@ Lessons
 - [How to use Visual Studio Code](lesson/vs-code.html)
 - [How to use Git](lesson/git.html)
 - [Open Source Software](lesson/open-source.html)
+
+## Ruby
+- [Ruby Introduction](lesson/ruby-intro.html)
+
