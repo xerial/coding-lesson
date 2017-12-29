@@ -15,7 +15,7 @@ Lessons
 
 ## Ruby
 - [Ruby Introduction](lesson/ruby-intro.html)
-
+- [Sudoku](lesson/sudoku.html)
 ## Addtional Resources
 
 ### Programming Contest
