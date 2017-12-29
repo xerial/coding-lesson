@@ -39,7 +39,7 @@ GitHub上にあるレポジトリ https://github.com/coding-lesson/ruby-practice
 ![Fork](images/fork.png)
 
 ```shell
-$ git clone git@github.com:(自分のGitHub アカウント名)/ruby-practice.git
+$ git clone https://github.com/(自分のGitHub アカウント名)/ruby-practice.git
 Cloning into 'ruby-practice'...
 Warning: Permanently added 'github.com,192.30.255.112' (RSA) to the list of known hosts.
 remote: Counting objects: 6, done.
