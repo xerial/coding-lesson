@@ -123,12 +123,7 @@ Branch fix-hello set up to track remote branch fix-hello from origin.
 ## git remote
 
 ```
-$ git remote add upstream git@github.com:coding-lesson/ruby-practice.git
-$ git remote -v
-origin	git@github.com:xerial/ruby-practice.git (fetch)
-origin	git@github.com:xerial/ruby-practice.git (push)
-upstream	git@github.com:coding-lesson/ruby-practice.git (fetch)
-upstream	git@github.com:coding-lesson/ruby-practice.git (push)
+$ git remote add upstream https://github.com:coding-lesson/ruby-practice.git
 ```
 
 masterブランチの最新版のコードをダウンロードする。
